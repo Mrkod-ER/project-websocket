@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Navbar from '@/components/web/homePage/navbar';
+import HeroSection from '@/components/web/homePage/heroSection';
+import Footer from '@/components/web/homePage/footer';
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <p>hello this the websocket project starting</p>
-    </div>
+    <main>
+      <Navbar />
+      <HeroSection />
+      <Footer />
+    </main>
   );
 }
